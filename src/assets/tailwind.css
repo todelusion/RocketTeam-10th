@@ -7,21 +7,24 @@
 
 @tailwind utilities;
 
-
 @layer base {
   body {
     @apply font-sans;
   }
 }
+
 @layer components {
   .container {
     @apply flex flex-wrap pb-[3.75rem] pt-[6.5rem] mx-auto xl:p-0 xl:max-w-full;
   }
   .landingWrap {
-    @apply flex px-5 w-full xl:h-screen xl:px-0;
+    @apply flex px-5 w-full flex-col xl:flex-row xl:h-screen xl:px-0;
   }
   .titleWrap {
-    @apply block xl:flex xl:flex-col xl:justify-center border-2
+    @apply block xl:flex xl:flex-col xl:justify-center;
+  }
+  .imgWrap {
+    @apply w-full xl:w-1/2;
   }
   .platformCard {
     @apply text-center flex flex-col items-center;

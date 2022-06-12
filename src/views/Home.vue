@@ -2,7 +2,7 @@
   <div class="container">
     <div class="landingWrap">
       <div class="titleWrap mx-auto">
-        <h1 class="text-primary font-bold text-base xl:text-[1.25rem] mb-2">
+        <h1 class="text-primary text-base xl:text-[1.25rem] mb-2">
           ChatTalker 最全面的聊天機器人
         </h1>
         <p
@@ -12,12 +12,12 @@
         </p>
         <h2 class="xl:text-xl">Facebook、Instagram、LINE 聊天機器人解決方案</h2>
       </div>
-      <div class="w-full xl:w-1/2 mb-24">
+      <div class="imgWrap mb-24">
         <div class="relative max-w-[304px] xl:max-w-full mx-auto">
           <img
             src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home.svg"
             width="532"
-            class="w-11/12 xl:w-[532px] xl:absolute xl:top-0 xl:right-0"
+            class="w-11/12 xl:w-[532px] xl:absolute xl:top-10 xl:right-20"
           />
           <img
             src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg"

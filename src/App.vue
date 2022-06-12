@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed z-50 w-full py-4 px-5"
+    class="fixed z-50 w-full py-4 px-5 xl:px-36"
     :class="{ bg_active: active, bg_none: !active }"
   >
     <ul class="flex items-center justify-between">

@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Price from "../views/Price.vue";
 
-let history = createWebHistory()
+let history = createWebHistory();
 const routes = [
   {
     path: "/",
@@ -16,5 +16,4 @@ const routes = [
   },
 ];
 
-
-export default createRouter({ history, routes })
+export default createRouter({ history, routes });
