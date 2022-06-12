@@ -84,12 +84,12 @@
     @apply py-4 px-11 w-full text-center;
   }
   .planWrap {
-    @apply w-full px-4 ;
+    @apply w-full px-4;
   }
   .planCard {
-    @apply w-[335px] xl:w-[450px] xl:h-full xl:ml-5 shadow-md mx-auto rounded-xl ;
+    @apply w-[335px] xl:w-[450px] xl:h-full xl:ml-5 shadow-md mx-auto rounded-xl;
   }
   .QAcard {
-    @apply p-4 flex flex-wrap justify-between shadow-md mb-4 cursor-pointer
+    @apply p-4 flex flex-wrap justify-between shadow-md mb-4 cursor-pointer;
   }
 }

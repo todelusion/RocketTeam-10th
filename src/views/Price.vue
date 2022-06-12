@@ -42,7 +42,7 @@
           </div>
           <div class="px-4 py-6">
             <p class="mb-6 text-center">
-              提供中小企業最必要的功能<br>完整建立分眾以達到精準的行銷自動化
+              提供中小企業最必要的功能<br />完整建立分眾以達到精準的行銷自動化
             </p>
             <ul class="flex items-center justify-around w-full mb-7">
               <li
@@ -105,7 +105,7 @@
           </div>
           <div class="px-4 py-6">
             <p class="mb-6 text-center">
-              建立企業流量池<br>全通路數據整合與交換 高可靠性服務
+              建立企業流量池<br />全通路數據整合與交換 高可靠性服務
             </p>
             <ul class="flex items-center justify-around w-full mb-7">
               <li
@@ -170,22 +170,29 @@
     <div class="px-5">
       <ul class="w-[334px] xl:w-[900px]">
         <li class="QAcard" @click="isShow = !isShow">
-          <h3 class="xl:text-[1.125rem]" :class="{ active: isShow, none_active: !isShow }">我要怎麼變更方案？</h3>
+          <h3
+            class="xl:text-[1.125rem]"
+            :class="{ active: isShow, none_active: !isShow }"
+          >
+            我要怎麼變更方案？
+          </h3>
           <img
             src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_plus.svg"
-            width="20"         
+            width="20"
             class="w-[16px] xl:w-[20px]"
           />
         </li>
         <li :class="{ QAinfo: isShow, none_QAinfo: !isShow }">
-          <p class="w-full" v-if="isShow">若需要降低人數費用，需支付額外違約額
-          若是提高訂閱人數方案，請直接洽詢客服人約</p>
+          <p class="w-full" v-if="isShow">
+            若需要降低人數費用，需支付額外違約額
+            若是提高訂閱人數方案，請直接洽詢客服人約
+          </p>
         </li>
         <li class="QAcard">
           <h3 class="xl:text-[1.125rem]">如果我沒有LINE官方帳號怎麼辦？</h3>
           <img
             src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_plus.svg"
-            width="20"         
+            width="20"
             class="w-[16px] xl:w-[20px]"
           />
         </li>
@@ -193,7 +200,7 @@
           <h3 class="xl:text-[1.125rem]">非上班日有客服支援嗎？</h3>
           <img
             src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_plus.svg"
-            width="20"         
+            width="20"
             class="w-[16px] xl:w-[20px]"
           />
         </li>
@@ -209,21 +216,20 @@
 export default {
   data() {
     return {
-      isShow: false
-    }
-
-  }
-}
+      isShow: false,
+    };
+  },
+};
 </script>
 
 <style>
 .active {
   transition: 0.2s ease;
-  color: #56C4C5;
+  color: #56c4c5;
 }
 .none_active {
   transition: 0.2s ease;
-  color: #000
+  color: #000;
 }
 .QAinfo {
   transition: all 0.2s ease;
@@ -236,9 +242,4 @@ export default {
   height: 0px;
   overflow: hidden;
 }
-
-
-
 </style>
-
-
