@@ -15,7 +15,7 @@
 
 @layer components {
   .container {
-    @apply flex flex-wrap pb-[3.75rem] pt-[6.5rem] mx-auto xl:p-0 xl:max-w-full;
+    @apply flex flex-wrap justify-center pb-[3.75rem] pt-[6.5rem] mx-auto xl:p-0 xl:max-w-full;
   }
   .landingWrap {
     @apply flex px-5 w-full flex-col xl:flex-row xl:h-screen xl:px-0;
@@ -26,35 +26,34 @@
   .imgWrap {
     @apply w-full xl:w-1/2;
   }
+  .platformWrap {
+    @apply px-[3.75rem] w-full xl:flex xl:flex-row xl:justify-center;
+  }
   .platformCard {
     @apply text-center flex flex-col items-center;
   }
-  .platformWrap {
-    @apply px-[3.75rem] w-full;
-  }
 
   .taWrap {
-    @apply px-14 w-full;
+    @apply px-14 w-full xl:flex xl:flex-row xl:justify-center;
   }
 
   .taCard {
-    @apply rounded-b-xl shadow-md max-w-[260px] mx-auto;
+    @apply rounded-b-xl shadow-md max-w-[260px] mx-auto xl:mx-0;
   }
   .taCardInfo {
     @apply pt-4 px-4 pb-6 text-center;
   }
   .subTitleWrap {
-    @apply text-center px-5 w-full;
+    @apply text-center px-5 w-full xl:px-0;
   }
   .planButton {
-    @apply text-base rounded-[22px] py-2 px-8 text-white duration-150 hover:scale-105;
+    @apply text-base text-center rounded-[22px] py-2 px-8 text-white duration-150 hover:scale-105;
   }
   .featureWrap {
-    @apply flex flex-col items-center w-full px-20;
+    @apply flex flex-col items-center mx-auto w-full px-20 xl:flex-row-reverse xl:justify-between;
   }
-
   .featureCard {
-    @apply rounded-xl shadow-md px-6 pt-8 pb-12 w-[14.375rem];
+    @apply rounded-xl shadow-md px-6 pt-8 pb-12 w-[14.375rem] mx-auto;
   }
   .featureCardInfo {
     @apply text-left;
