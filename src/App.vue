@@ -45,6 +45,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Noto Sans TC, Roboto;
 }
 .bg_active {
   transition: 0.1s ease-in-out;

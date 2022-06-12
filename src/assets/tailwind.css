@@ -49,6 +49,9 @@
   .planButton {
     @apply text-base text-center rounded-[22px] py-2 px-8 text-white duration-150 hover:scale-105;
   }
+  .userBtn {
+    @apply border-2 border-primary text-primary hover:text-white hover:bg-primary px-4 py-2 rounded-3xl font-light cursor-pointer duration-100;
+  }
   .featureWrap {
     @apply flex flex-col items-center mx-auto w-full px-20 xl:flex-row-reverse xl:justify-between;
   }
@@ -79,5 +82,11 @@
   }
   .copyRight {
     @apply py-4 px-11 w-full text-center;
+  }
+  .planWrap {
+    @apply w-full px-4 xl:flex-row;
+  }
+  .planCard {
+    @apply w-[335px] shadow-md mx-auto rounded-xl
   }
 }
