@@ -11,6 +11,7 @@ module.exports = {
         'primary': '#3F5D45',
         'second': '#EAF0ED',
         'third': '#FFE180',
+        'lightGreen': '#8DA291'
       },
       backgroundImage: {
         'banner-home':"url(./src/assets/home_banner.jpg)"
@@ -25,5 +26,21 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities, addComponents, e, prefix, config }) {
+      const newUtilities = {
+        '.horizontal-tb': {
+          writingMode: 'horizontal-tb',
+        },
+        '.vertical-rl': {
+          writingMode: 'vertical-rl'
+        },
+        '.vertical-lr': {
+          writingMode: 'vertical-lr'
+        }
+      }
+      addUtilities(newUtilities)
+    }
+
+  ],
 }

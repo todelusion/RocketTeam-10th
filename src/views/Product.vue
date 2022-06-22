@@ -15,7 +15,7 @@
     <div class="landingWrap relative mb-10 h-screen px-0 xl:mb-4">
       <div class="titleWrap px-5 xl:px-36">
         <p
-          class="mb-4 text-[2rem] font-bold leading-[2.875rem] text-dark md:text-5xl xl:leading-[4.375rem]"
+          class="text-dark mb-4 text-[2rem] font-bold leading-[2.875rem] md:text-5xl xl:leading-[4.375rem]"
         >
           計費方式說明
         </p>

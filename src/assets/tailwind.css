@@ -12,3 +12,9 @@
     @apply font-sans;
   }
 }
+
+@layer components {
+  .home-menu {
+    @apply flex w-full items-center justify-center py-10 px-[52px] backdrop-blur-sm;
+  }
+}
