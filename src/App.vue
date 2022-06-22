@@ -14,8 +14,8 @@
       </li>
       <ul class="flex font-semibold text-primary">
         <li class="hidden horizontal-tb md:block">首頁</li>
-        <router-link to="/product">
-          <li class="hidden md:ml-16 md:block">甜點</li>
+        <router-link to="/product" class="md:ml-16">
+          <li class="hidden md:block">甜點</li>
         </router-link>
         <li class="hidden md:ml-16 md:block">登入</li>
         <img src="./assets/shopping_cart.png" alt="chart" class="md:ml-16" />
