@@ -62,14 +62,14 @@
     <h3
       class="hidden font-serif text-2xl font-extrabold leading-9 text-primary md:absolute md:left-[450px] md:-top-7 md:block md:text-4xl md:leading-[60px] md:tracking-[10px] md:vertical-rl"
     >
-      為什麼——<br />　一定要吃甜點？
+      為什麼——<br />一定要吃甜點？
     </h3>
   </section>
-  <section class="flex w-full items-center justify-center px-24 md:h-[503px]">
+  <section class="flex w-full items-center justify-center px-20 md:h-[503px]">
     <h3
       class="mb-8 font-serif text-2xl font-extrabold leading-9 text-primary md:text-4xl md:leading-[60px] md:tracking-[10px] md:vertical-rl"
     >
-      想吃甜點——<br />　是不需要理由的。
+      想吃甜點——<br />是不需要理由的。
     </h3>
   </section>
 </template>

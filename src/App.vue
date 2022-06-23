@@ -49,6 +49,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: Noto Sans TC, Roboto;
+  list-style: none;
 }
 .bg_active {
   transition: 0.1s ease-in-out;
