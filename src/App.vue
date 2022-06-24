@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="fixed z-50 flex w-full justify-center p-8 md:px-11 md:py-10"
+    class="fixed z-50 flex w-full justify-center p-8 md:py-10"
     :class="{ bg_active: active, bg_none: !active }"
   >
-    <ul class="flex w-96 items-center justify-between md:w-full">
+    <ul class="flex w-full items-center justify-between md:w-full">
       <li class="inline md:hidden">
         <img src="./assets/dehaze-24px.png" alt="" />
       </li>
@@ -12,14 +12,18 @@
           <img alt="LOGO" src="./assets/logo-all-dark.svg" width="200" />
         </router-link>
       </li>
-      <ul class="flex font-semibold text-primary">
-        <li class="hidden horizontal-tb md:block">首頁</li>
-        <router-link to="/product" class="md:ml-16">
-          <li class="hidden md:block">甜點</li>
-        </router-link>
-        <li class="hidden md:ml-16 md:block">登入</li>
-        <img src="./assets/shopping_cart.png" alt="chart" class="md:ml-16" />
-      </ul>
+      <li>
+        <ul class="flex font-semibold text-primary">
+          <router-link to="/">
+            <li class="hidden horizontal-tb md:block">首頁</li>
+          </router-link>
+          <router-link to="/product" class="md:ml-16">
+            <li class="hidden md:block">甜點</li>
+          </router-link>
+          <li class="hidden md:ml-16 md:block">登入</li>
+          <img src="./assets/shopping_cart.png" alt="chart" class="md:ml-16" />
+        </ul>
+      </li>
     </ul>
   </nav>
   <router-view />

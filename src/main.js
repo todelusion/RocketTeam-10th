@@ -1,6 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
+import Footer from "./components/Footer.vue";
+import ProductCard from "./components/ProductCard.vue";
 import "./assets/tailwind.css";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -23,5 +25,7 @@ library.add(
 
 const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon);
+app.component("Footer", Footer);
+app.component("ProductCard", ProductCard);
 app.use(router);
 app.mount("#app");
