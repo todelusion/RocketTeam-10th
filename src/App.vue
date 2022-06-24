@@ -20,7 +20,9 @@
           <router-link to="/product" class="md:ml-16">
             <li class="hidden md:block">甜點</li>
           </router-link>
-          <li class="hidden md:ml-16 md:block">登入</li>
+          <router-link to="/login">
+            <li class="hidden md:ml-16 md:block">登入</li>
+          </router-link>
           <img src="./assets/shopping_cart.png" alt="chart" class="md:ml-16" />
         </ul>
       </li>
@@ -54,6 +56,11 @@ export default {
   box-sizing: border-box;
   font-family: Noto Sans TC, Roboto;
   list-style: none;
+}
+input {
+  background-color: transparent;
+  outline: none;
+  border: 0;
 }
 .bg_active {
   transition: 0.1s ease-in-out;

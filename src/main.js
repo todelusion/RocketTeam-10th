@@ -12,6 +12,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faPinterest } from "@fortawesome/free-brands-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faKey } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(
@@ -20,7 +22,9 @@ library.add(
   faEnvelope,
   faArrowRight,
   faFacebook,
-  faPinterest
+  faPinterest,
+  faUser,
+  faKey
 );
 
 const app = createApp(App);

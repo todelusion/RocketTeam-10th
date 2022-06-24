@@ -16,9 +16,9 @@
         <li class="hover:bg-second">人氣推薦（26）</li>
         <li class="hover:bg-second">人氣推薦（26）</li>
       </ul>
-      <div class="flex flex-col items-center lg:items-end ml-5">
+      <div class="ml-5 flex flex-col items-center lg:items-end">
         <ul
-          class="grid mb-[30px] w-full grid-cols-1 justify-items-center gap-[30px] md:max-w-[600px] lg:grid-cols-2"
+          class="mb-[30px] grid w-full grid-cols-1 justify-items-center gap-[30px] md:max-w-[600px] lg:grid-cols-2"
         >
           <li>
             <ProductCard
@@ -57,12 +57,28 @@
             />
           </li>
         </ul>
-        <ul class="flex cursor-pointer border-2 w-max">
-          <li class="py-4 px-4 border-r-2"><img src="../assets/arrow_left.png" alt=""></li>
-          <li class="py-4 px-6 border-r-2 text-primary hover:text-white hover:bg-primary">1</li>
-          <li class="py-4 px-6 border-r-2 text-primary hover:text-white hover:bg-primary">2</li>
-          <li class="py-4 px-6 border-r-2 text-primary hover:text-white hover:bg-primary">3</li>
-          <li class="py-4 px-4"><img src="../assets/arrow_right.png" alt=""></li>
+        <ul class="flex w-max cursor-pointer border-2">
+          <li class="border-r-2 py-4 px-4">
+            <img src="../assets/arrow_left.png" alt="" />
+          </li>
+          <li
+            class="border-r-2 py-4 px-6 text-primary hover:bg-primary hover:text-white"
+          >
+            1
+          </li>
+          <li
+            class="border-r-2 py-4 px-6 text-primary hover:bg-primary hover:text-white"
+          >
+            2
+          </li>
+          <li
+            class="border-r-2 py-4 px-6 text-primary hover:bg-primary hover:text-white"
+          >
+            3
+          </li>
+          <li class="py-4 px-4">
+            <img src="../assets/arrow_right.png" alt="" />
+          </li>
         </ul>
       </div>
     </div>
