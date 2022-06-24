@@ -23,7 +23,13 @@
           <router-link to="/login">
             <li class="hidden md:ml-16 md:block">登入</li>
           </router-link>
-          <img src="./assets/shopping_cart.png" alt="chart" class="md:ml-16" />
+          <router-link to="/cart">
+            <img
+              src="./assets/shopping_cart.png"
+              alt="chart"
+              class="md:ml-16"
+            />
+          </router-link>
         </ul>
       </li>
     </ul>
