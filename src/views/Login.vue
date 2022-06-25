@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-center pt-[84px] md:px-[122px] md:pt-[130px] md:pb-[40px]"
+    class="flex items-center justify-center pt-[100px] md:px-[122px] md:pt-[130px] md:pb-[40px]"
   >
     <LoginCard
       class="duration-100 hover:scale-105 hover:bg-primary hover:text-primary"

@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Product from "../views/Product.vue";
 import Login from "../views/Login.vue";
 import Cart from "../views/Cart.vue";
+import Checkout from "../views/Checkout.vue"
 
 let history = createWebHistory();
 const routes = [
@@ -10,6 +11,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    
   },
   {
     path: "/product",
@@ -23,9 +25,12 @@ const routes = [
   },
   {
     path: "/cart",
-    name: "Cart",
-    component: Cart,
+    component: Cart,  
   },
+  {
+    path: "/checkout",
+    component: Checkout
+  }
 ];
 
 export default createRouter({ history, routes });

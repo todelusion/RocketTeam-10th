@@ -35,11 +35,14 @@
     </div>
     <div class="w-full lg:w-1/4 lg:ml-5">
       <CartResult/>
-      <h2
-        class="w-full bg-third py-4 text-center text-2xl font-semibold text-primary lg:hidden"
-      >
-        結帳
-      </h2>
+      <router-link to="/checkout">
+        <h2
+          class="w-full bg-third py-4 text-center text-2xl font-semibold text-primary lg:hidden"
+        >
+          結帳
+        </h2>
+      </router-link>
+      
     </div>
   </div>
   <Footer />

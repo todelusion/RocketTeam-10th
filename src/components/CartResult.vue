@@ -1,7 +1,7 @@
 <template>
   <ul class="mx-auto lg:bg-primary lg:px-4 lg:pb-4">
     <li
-      class="mb-4 w-full bg-second py-4 text-center text-2xl font-semibold text-[#EAF0ED] lg:bg-transparent lg:border-b-[1px]"
+      class="mb-4 w-full bg-second py-4 text-center text-2xl font-semibold text-primary lg:text-[#EAF0ED] lg:bg-transparent lg:border-b-[1px]"
     >
       訂單摘要
     </li>
@@ -18,9 +18,11 @@
       <p>NT$ 3,000</p>
     </li>
   </ul>
+  <router-link to="/checkout">
     <h2
     class="w-full bg-third py-4 text-center text-2xl font-semibold text-primary hidden lg:block"
     >
     結帳
     </h2>
+  </router-link>
 </template>

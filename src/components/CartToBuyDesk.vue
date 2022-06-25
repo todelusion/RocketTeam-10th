@@ -15,7 +15,8 @@
         </li>
         <li class="flex h-12 w-12 items-center justify-center"><p>+</p></li>
       </ul>
-      <p class="py-2 text-right">NT$ 900</p>
+      <p class="py-2 text-right text-xl font-semibold text-primary">NT$ 900</p>
+      <font-awesome-icon :icon="['far' ,'trash-can']" class="text-xl text-primary mr-4" />
     </li>
   </ul>
 </template>
