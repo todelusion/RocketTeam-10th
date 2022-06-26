@@ -13,10 +13,6 @@ module.exports = {
         'third': '#FFE180',
         'lightGreen': '#8DA291'
       },
-      backgroundImage: {
-        'banner-home':"url(./src/assets/home_banner.jpg)",
-        'payment-success': "url(./src/assets/payment_success.jpg)"
-      }
     },
     fontFamily: {
       sans: ['Noto Sans TC','Roboto'],

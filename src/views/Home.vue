@@ -51,4 +51,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.bg-banner-home {
+  background-image: url("../assets/home_banner.jpg");
+}
+
+</style>

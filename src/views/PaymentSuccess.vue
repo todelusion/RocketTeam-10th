@@ -1,7 +1,7 @@
 <template>
   <div class="pt-[90px] md:px-[42px] md:pt-[130px] md:pb-[60px]">
     <div
-      class="flex h-screen items-center justify-center bg-payment-success bg-cover bg-center md:h-[460px]"
+      class="flex h-screen items-center bg-payment-success justify-center bg-cover bg-center md:h-[460px]"
     >
       <div class="flex w-1/2 flex-col items-center md:w-1/5">
         <img
@@ -33,3 +33,11 @@
   </div>
   <Footer />
 </template>
+
+<style>
+.bg-payment-success{
+    background-image: url("../assets/payment_success.jpg");
+
+
+}
+</style>

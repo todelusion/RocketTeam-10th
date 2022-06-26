@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "pr": "prettier -w ./src"
+    "pr": "prettier -w ./src",
+    "deploy": "cd dist && cp index.html 404.htm"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
