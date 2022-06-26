@@ -6,7 +6,7 @@ import Cart from "../views/Cart.vue";
 import Checkout from "../views/Checkout.vue";
 import PaymentSuccess from "../views/PaymentSuccess.vue";
 
-let history = createWebHistory('/RocketTeam-10th/');
+let history = createWebHistory(/*'/RocketTeam-10th/'*/);
 const routes = [
   {
     path: "/",
