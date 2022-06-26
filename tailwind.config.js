@@ -14,7 +14,8 @@ module.exports = {
         'lightGreen': '#8DA291'
       },
       backgroundImage: {
-        'banner-home':"url(./src/assets/home_banner.jpg)"
+        'banner-home':"url(./src/assets/home_banner.jpg)",
+        'payment-success': "url(./src/assets/payment_success.jpg)"
       }
     },
     fontFamily: {

@@ -1,5 +1,7 @@
 <template>
-  <div class="pt-[84px] md:px-[122px] md:pt-[130px] md:pb-[40px] flex flex-wrap justify-center">
+  <div
+    class="flex flex-wrap justify-center pt-[84px] md:px-[122px] md:pt-[130px] md:pb-[40px]"
+  >
     <div class="w-full lg:w-2/3">
       <h2
         class="mb-[30px] w-full bg-second py-4 text-center text-2xl font-semibold text-primary"
@@ -33,8 +35,8 @@
         />
       </div>
     </div>
-    <div class="w-full lg:w-1/4 lg:ml-5">
-      <CartResult/>
+    <div class="w-full lg:ml-5 lg:w-1/4">
+      <CartResult hide="hidden" block="lg:block" />
       <router-link to="/checkout">
         <h2
           class="w-full bg-third py-4 text-center text-2xl font-semibold text-primary lg:hidden"
@@ -42,7 +44,6 @@
           結帳
         </h2>
       </router-link>
-      
     </div>
   </div>
   <Footer />
@@ -50,7 +51,7 @@
 
 <script>
 import CartToBuy from "../components/CartToBuy.vue";
-import CartToBuyDesk from "../components/CartToBuyDesk.vue"
+import CartToBuyDesk from "../components/CartToBuyDesk.vue";
 import CartResult from "../components/CartResult.vue";
 export default {
   components: {
